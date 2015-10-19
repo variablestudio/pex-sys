@@ -215,7 +215,7 @@ Window.create = function(obj){
             width      : window.settings.width || 1280,
             height     : window.settings.height || 720,
             fullscreen : window.settings.fullscreen || false,
-            highdpi    : window.settings.highdpi || 1
+            pixelRatio : window.settings.pixelRatio || 1
         },
         time : window._time,
         input : {
